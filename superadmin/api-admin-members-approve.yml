@@ -1,0 +1,24 @@
+info:
+  name: api/admin/members/approve
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/members/approve
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 179|rkcQ2OmE3JAH3EapjxruzdctY9MGvRGDDBIQmRSHf940a02e
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r\n    \"id\": 30\r\n}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

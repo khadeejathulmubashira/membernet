@@ -1,0 +1,28 @@
+info:
+  name: login
+  type: http
+  seq: 11
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/login
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r
+
+      \  \"email\"   : \"mubigct@gmail.com\",\r
+
+      \  \"password\": \"admin@1234\"\r
+
+      }"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

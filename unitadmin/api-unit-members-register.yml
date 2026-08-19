@@ -1,0 +1,37 @@
+info:
+  name: api/unit/members/register
+  type: http
+  seq: 10
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/unit/members/register
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 209|8vhypiqcy3LFAdQPTyQQ06eYz0Jf2AJEn5T5xT0s61997611
+  body:
+    type: json
+    data: "{\r
+
+      \    \"name\": \"Razia Sultana\",\r
+
+      \    \"email\": \"razia@gmail.com\",\r
+
+      \    \"phone\": \"9845003001\",\r
+
+      \    \"password\": \"password@123\",\r
+
+      \    \"dob\": \"1988-07-22\",\r
+
+      \    \"organization\": \"Calicut Medical College\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

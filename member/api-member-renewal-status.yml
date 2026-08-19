@@ -1,0 +1,21 @@
+info:
+  name: api/member/renewal-status
+  type: http
+  seq: 24
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/member/renewal-status
+  headers:
+    - name: Authorization
+      value: Bearer 224|2jKBxJm0EzMwBTEOYnTct665S8t6aRdfXrhkbR3d63ba37c0
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

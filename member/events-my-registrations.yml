@@ -1,0 +1,19 @@
+info:
+  name: events/my-registrations
+  type: http
+  seq: 22
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/events/my-registrations
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 54|MYGb15vktKxfE4dyAyX5I4PbYzyKbiKu8rwpk3axee15bb31
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,24 @@
+info:
+  name: events/cancel_1
+  type: http
+  seq: 23
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/events/cancel
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 54|MYGb15vktKxfE4dyAyX5I4PbYzyKbiKu8rwpk3axee15bb31
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r\n    \"registration_id\": 2\r\n}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

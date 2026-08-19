@@ -1,0 +1,30 @@
+info:
+  name: api/unit/members/reject
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/unit/members/reject
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 189|zPGYZaJH3R9mfxtQmA9uJi0x3HdDU1TD5e4vHOlQ28c52ffa
+  body:
+    type: json
+    data: "{\r
+
+      \    \"id\": 21,\r
+
+      \    \"reason\": \"Incomplete documents\"\r
+
+      }"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

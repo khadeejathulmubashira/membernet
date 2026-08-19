@@ -1,0 +1,35 @@
+info:
+  name: api/admin/unit-admins/search
+  type: http
+  seq: 18
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/unit-admins/search?page=1&per_page=15
+  headers:
+    - name: Authorization
+      value: Bearer 227|KZ3zWbNYVYrzJgdpEbfEX6PAZbgXYq3iQeIcNCJM2bc1056a
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: per_page
+      value: "15"
+      type: query
+  body:
+    type: json
+    data: "{\r
+
+      \    \"keyword\"  : \"deepa\"\r
+
+      }"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

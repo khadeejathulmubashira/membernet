@@ -1,0 +1,21 @@
+info:
+  name: api/member/profile
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/member/profile
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 180|Vuexra0kI9urW5oixOs47alUoGczONHfv3odsuwNbccc18b6
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

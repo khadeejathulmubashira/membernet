@@ -1,0 +1,30 @@
+info:
+  name: events
+  type: http
+  seq: 20
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/events
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 134|W7tlA1intajDRF6QXKG4WkA1BJWfHIUnj9qe4sib9e190c39
+  body:
+    type: json
+    data: "{\r
+
+      \    \"tab\": \"upcoming\",\r
+
+      \    \"search\": \"\"\r
+
+      }\r\n"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

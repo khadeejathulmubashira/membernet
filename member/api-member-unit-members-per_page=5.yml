@@ -1,0 +1,28 @@
+info:
+  name: api/member/unit-members?per_page=5
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/member/unit-members
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 106|tLl9VGxAhM2f6lA15qRH56lKgqTHu4vqOcjU8Y2re1885496
+  body:
+    type: json
+    data: "{\r
+
+      \    \"keyword\": \"jjjugfcvvvv\"\r
+
+      }"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,25 @@
+info:
+  name: api/admin/locations/units
+  type: http
+  seq: 25
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/locations/units
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 398|xYS9cwNOIqN5l1AUQ5FiWVdqQEdhGwHHAhGer11m26acd3a6
+  body:
+    type: json
+    data: "{\r\n    \"district_id\": 3\r\n}"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

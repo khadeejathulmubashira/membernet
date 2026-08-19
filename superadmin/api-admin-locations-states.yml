@@ -1,0 +1,23 @@
+info:
+  name: api/admin/locations/states
+  type: http
+  seq: 23
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/locations/states
+  headers:
+    - name: Accept
+      value: application/json
+      disabled: true
+    - name: Authorization
+      value: Bearer 398|xYS9cwNOIqN5l1AUQ5FiWVdqQEdhGwHHAhGer11m26acd3a6
+    - name: Content-Type
+      value: application/json
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

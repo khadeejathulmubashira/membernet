@@ -1,0 +1,38 @@
+info:
+  name: api/admin/unit-admins/register
+  type: http
+  seq: 15
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/unit-admins/register
+  headers:
+    - name: Accept
+      value: application/ecmascript
+    - name: Authorization
+      value: Bearer 208|gp64JdFp1VESxQERhOFJ4WNJmqsZFFpDVyHRKQ479fe43609
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r
+
+      \    \"name\"        : \"John Doe\",\r
+
+      \    \"email\"       : \"johndoe@example.com\",\r
+
+      \    \"phone\"       : \"9988776776\",\r
+
+      \    \"state_id\"    : 1,\r
+
+      \    \"district_id\" : 1,\r
+
+      \    \"unit_id\"     : 1\r
+
+      }"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,22 @@
+info:
+  name: api/districts
+  type: http
+  seq: 13
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/districts
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r\n    \"state_id\": 1\r\n}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

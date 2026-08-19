@@ -1,0 +1,25 @@
+info:
+  name: api/admin/locations/state/add
+  type: http
+  seq: 20
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/locations/state/add
+  headers:
+    - name: Authorization
+      value: Bearer 208|gp64JdFp1VESxQERhOFJ4WNJmqsZFFpDVyHRKQ479fe43609
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r\n  \"name\": \"Tamil Nadu\"\r\n}"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

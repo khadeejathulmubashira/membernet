@@ -1,0 +1,24 @@
+info:
+  name: events/register
+  type: http
+  seq: 21
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/events/register
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 98|lnMG0O73cJMWtkOB0fu3HDyCpEpOXalX83FSD2KE637d5ad4
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r\n    \"event_id\": 13\r\n}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

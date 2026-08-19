@@ -1,0 +1,33 @@
+info:
+  name: api/admin/locations/unit/add
+  type: http
+  seq: 22
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/locations/unit/add
+  headers:
+    - name: Authorization
+      value: Bearer 208|gp64JdFp1VESxQERhOFJ4WNJmqsZFFpDVyHRKQ479fe43609
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r
+
+      \  \"name\": \"Coimbatore North Unit\",\r
+
+      \  \"state_id\": \"9\",\r
+
+      \  \"district_id\": \"22\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

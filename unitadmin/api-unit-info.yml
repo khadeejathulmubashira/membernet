@@ -1,0 +1,19 @@
+info:
+  name: api/unit/info
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/unit/info
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 228|fAErPuPDrCD3F0kB1gVZ3EineWvdKdC5rGK0womZ7c25f4bc
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

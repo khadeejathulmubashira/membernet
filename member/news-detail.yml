@@ -1,0 +1,24 @@
+info:
+  name: news/detail
+  type: http
+  seq: 19
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/news/detail
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 113|xygMNHlyhXpFWlGAvMAxuDsW6cgd9zCSOCKsizn1f024e9fd
+  body:
+    type: json
+    data: "{\r\n    \"id\": 1\r\n}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

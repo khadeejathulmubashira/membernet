@@ -1,0 +1,24 @@
+info:
+  name: logout
+  type: http
+  seq: 16
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/logout
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 55|eVWyH7ME1GdTLyejT9KepfgwGKswJrLrgSVnXdmcd1aa438b
+  body:
+    type: json
+    data: ""
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

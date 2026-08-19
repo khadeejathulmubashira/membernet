@@ -1,0 +1,31 @@
+info:
+  name: api/admin/members
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/members?page=1&per_page=10
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 227|KZ3zWbNYVYrzJgdpEbfEX6PAZbgXYq3iQeIcNCJM2bc1056a
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: per_page
+      value: "10"
+      type: query
+  body:
+    type: json
+    data: "{\r\n}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
