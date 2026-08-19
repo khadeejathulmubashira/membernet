@@ -5,7 +5,14 @@ info:
 
 http:
   method: GET
-  url: api/fundraising/campaigns
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/fundraising/campaigns
+  headers:
+    - name: Authorization
+      value: Bearer 437|PqoWmKuayvDhsz3lAIFs4zNmq8qncY5iIF4Jl16K3383fb73
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: application/json
   auth: inherit
 
 settings:
