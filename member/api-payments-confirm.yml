@@ -1,0 +1,32 @@
+info:
+  name: api/payments/confirm
+  type: http
+  seq: 29
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/payments/confirm
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 440|rWymb7pvQbUwMtCdgUCRFEWnik7jCAIyHb6byRJjc443509b
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "type": "3",
+        "reference_id": "c1",
+        "amount": "500",
+        "payment_method": "Card",
+        "gateway_transaction_id": "dummy_txn_test_003"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
