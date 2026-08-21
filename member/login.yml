@@ -13,13 +13,11 @@ http:
       value: application/json
   body:
     type: json
-    data: "{\r
-
-      \  \"email\"   : \"mubigct@gmail.com\",\r
-
-      \  \"password\": \"admin@1234\"\r
-
-      }"
+    data: |-
+      {
+        "email"   : "julia@gmail.com",
+        "password": "password@123"
+      }
 
 settings:
   encodeUrl: true

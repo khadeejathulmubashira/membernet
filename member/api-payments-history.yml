@@ -4,8 +4,8 @@ info:
   seq: 30
 
 http:
-  method: GET
-  url: https://kmubhashira.astradevelops.in/eca-api/public/api/payments/history
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/payments/history?page=1&limit=20
   headers:
     - name: Authorization
       value: Bearer 440|rWymb7pvQbUwMtCdgUCRFEWnik7jCAIyHb6byRJjc443509b
@@ -13,6 +13,19 @@ http:
       value: application/json
     - name: Content-Type
       value: application/json
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: limit
+      value: "20"
+      type: query
+  body:
+    type: json
+    data: |-
+      {
+        "type": "monthly"
+      }
   auth: inherit
 
 settings:

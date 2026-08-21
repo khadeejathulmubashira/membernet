@@ -5,12 +5,19 @@ info:
 
 http:
   method: GET
-  url: https://kmubhashira.astradevelops.in/eca-api/public/api/dues
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/dues?page=1&limit=20
   headers:
     - name: Accept
       value: application/json
     - name: Authorization
       value: Bearer 440|rWymb7pvQbUwMtCdgUCRFEWnik7jCAIyHb6byRJjc443509b
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: limit
+      value: "20"
+      type: query
   auth: inherit
 
 settings:
