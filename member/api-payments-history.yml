@@ -24,7 +24,7 @@ http:
     type: json
     data: |-
       {
-        "type": "monthly"
+        "type": "4"
       }
   auth: inherit
 
