@@ -1,0 +1,29 @@
+info:
+  name: api/schemes/subscribe
+  type: http
+  seq: 32
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/schemes/subscribe
+  headers:
+    - name: Authorization
+      value: Bearer 442|uXwR4PZZmXKwisnhoq2RVwDQB64dDJkY7oY0osVUc12e0207
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "scheme_id": "s1"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

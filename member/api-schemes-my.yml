@@ -1,0 +1,21 @@
+info:
+  name: api/schemes/my
+  type: http
+  seq: 33
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/schemes/my
+  headers:
+    - name: Authorization
+      value: Bearer 442|uXwR4PZZmXKwisnhoq2RVwDQB64dDJkY7oY0osVUc12e0207
+    - name: Accept
+      value: application/json
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

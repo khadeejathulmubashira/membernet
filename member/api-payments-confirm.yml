@@ -17,11 +17,11 @@ http:
     type: json
     data: |-
       {
-        "type": "3",
-        "reference_id": "c1",
-        "amount": "500",
-        "payment_method": "Card",
-        "gateway_transaction_id": "dummy_txn_test_003"
+        "type": "4",
+        "reference_id": "si1",
+        "amount": "1000",
+        "payment_method": "UPI",
+        "gateway_transaction_id": "dummy_txn_scheme_001"
       }
   auth: inherit
 
@@ -30,3 +30,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
