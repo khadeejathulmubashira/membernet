@@ -5,7 +5,12 @@ info:
 
 http:
   method: GET
-  url: api/gallery
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/gallery
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
   auth: inherit
 
 settings:
