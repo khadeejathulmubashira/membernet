@@ -1,23 +1,16 @@
 info:
-  name: api/fees/scheme
+  name: api/schemes/dues
   type: http
-  seq: 31
+  seq: 33
 
 http:
   method: GET
-  url: https://kmubhashira.astradevelops.in/eca-api/public/api/fees/scheme?page=1&limit=20
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/schemes/dues
   headers:
     - name: Authorization
       value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
     - name: Accept
       value: application/json
-  params:
-    - name: page
-      value: "1"
-      type: query
-    - name: limit
-      value: "20"
-      type: query
   auth: inherit
 
 settings:

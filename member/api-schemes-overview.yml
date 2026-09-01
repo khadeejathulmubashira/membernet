@@ -1,0 +1,34 @@
+info:
+  name: api/schemes/overview
+  type: http
+  seq: 32
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/schemes/overview?page=1&limit=20
+  headers:
+    - name: Authorization
+      value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
+    - name: Accept
+      value: application/json
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: limit
+      value: "20"
+      type: query
+  body:
+    type: json
+    data: |-
+      {
+        "scheme_id": "s3"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

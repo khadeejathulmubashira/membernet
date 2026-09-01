@@ -18,10 +18,10 @@ http:
     data: |-
       {
         "type": "4",
-        "reference_id": "sf1",
-        "amount": "300",
+        "reference_id": "si2",
+        "amount": "150",
         "payment_method": "UPI",
-        "gateway_transaction_id": "dummy_txn_20260901_scheme_01"
+        "gateway_transaction_id": "dummy_txn_20260901_si2"
       }
   auth: inherit
 
