@@ -10,7 +10,7 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 440|rWymb7pvQbUwMtCdgUCRFEWnik7jCAIyHb6byRJjc443509b
+      value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
     - name: Content-Type
       value: application/json
   body:
@@ -18,10 +18,10 @@ http:
     data: |-
       {
         "type": "4",
-        "reference_id": "si1",
-        "amount": "1000",
+        "reference_id": "sf1",
+        "amount": "300",
         "payment_method": "UPI",
-        "gateway_transaction_id": "dummy_txn_scheme_001"
+        "gateway_transaction_id": "dummy_txn_20260901_scheme_01"
       }
   auth: inherit
 

@@ -10,7 +10,7 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 440|rWymb7pvQbUwMtCdgUCRFEWnik7jCAIyHb6byRJjc443509b
+      value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
   params:
     - name: page
       value: "1"
@@ -25,3 +25,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
