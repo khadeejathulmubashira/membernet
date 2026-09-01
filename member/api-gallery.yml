@@ -1,0 +1,16 @@
+info:
+  name: api/gallery
+  type: http
+  seq: 36
+
+http:
+  method: GET
+  url: api/gallery
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
