@@ -1,24 +1,22 @@
 info:
-  name: api/schemes
+  name: api/fees/scheme
   type: http
   seq: 31
 
 http:
   method: GET
-  url: https://kmubhashira.astradevelops.in/eca-api/public/api/schemes?page=1&limit=10
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/fees/scheme?page=1&limit=20
   headers:
     - name: Authorization
-      value: Bearer 442|uXwR4PZZmXKwisnhoq2RVwDQB64dDJkY7oY0osVUc12e0207
+      value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
     - name: Accept
-      value: application/json
-    - name: Content-Type
       value: application/json
   params:
     - name: page
       value: "1"
       type: query
     - name: limit
-      value: "10"
+      value: "20"
       type: query
   auth: inherit
 
