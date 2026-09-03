@@ -5,12 +5,19 @@ info:
 
 http:
   method: GET
-  url: https://kmubhashira.astradevelops.in/eca-api/public/api/gallery
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/gallery?page=1&limit=20
   headers:
     - name: Accept
       value: application/json
     - name: Authorization
       value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: limit
+      value: "20"
+      type: query
   auth: inherit
 
 settings:
