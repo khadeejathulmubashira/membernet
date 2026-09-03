@@ -18,8 +18,8 @@ http:
     data: |-
       {
         "type": "4",
-        "reference_id": "si8",
-        "amount": "150",
+        "reference_id": "si10",
+        "amount": "500",
         "payment_method": "UPI",
         "gateway_transaction_id": "dummy_txn_month2_si4"
       }
