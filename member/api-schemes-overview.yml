@@ -22,7 +22,7 @@ http:
     type: json
     data: |-
       {
-        "scheme_id": "s4"
+        "scheme_id": "s6"
       }
   auth: inherit
 
