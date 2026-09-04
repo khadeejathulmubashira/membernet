@@ -1,7 +1,7 @@
 info:
   name: events/cancel_1
   type: http
-  seq: 23
+  seq: 22
 
 http:
   method: POST
@@ -22,3 +22,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

@@ -15,7 +15,7 @@ http:
     type: json
     data: |-
       {
-        "email"   : "sukumaran@gmail.com",
+        "email"   : "julia@gmail.com",
         "password": "password@123"
       }
 

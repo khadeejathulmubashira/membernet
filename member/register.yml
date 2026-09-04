@@ -1,7 +1,7 @@
 info:
   name: register
   type: http
-  seq: 18
+  seq: 17
 
 http:
   method: POST
@@ -44,3 +44,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

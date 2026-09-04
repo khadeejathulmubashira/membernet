@@ -1,7 +1,7 @@
 info:
   name: api/gallery
   type: http
-  seq: 36
+  seq: 34
 
 http:
   method: GET

@@ -1,7 +1,7 @@
 info:
   name: api/schemes/payments/history
   type: http
-  seq: 34
+  seq: 32
 
 http:
   method: GET

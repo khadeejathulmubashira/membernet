@@ -1,7 +1,7 @@
 info:
   name: events/register
   type: http
-  seq: 21
+  seq: 20
 
 http:
   method: POST
@@ -22,3 +22,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

@@ -1,7 +1,7 @@
 info:
   name: api/schemes/dues
   type: http
-  seq: 33
+  seq: 31
 
 http:
   method: GET

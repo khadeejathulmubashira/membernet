@@ -1,7 +1,7 @@
 info:
   name: api/schemes/overview
   type: http
-  seq: 32
+  seq: 30
 
 http:
   method: POST

@@ -1,7 +1,7 @@
 info:
   name: api/payments/overview
   type: http
-  seq: 27
+  seq: 25
 
 http:
   method: GET

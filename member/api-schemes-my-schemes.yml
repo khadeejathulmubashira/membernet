@@ -1,7 +1,7 @@
 info:
   name: api/schemes/my-schemes
   type: http
-  seq: 31
+  seq: 29
 
 http:
   method: GET

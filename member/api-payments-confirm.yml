@@ -1,7 +1,7 @@
 info:
   name: api/payments/confirm
   type: http
-  seq: 29
+  seq: 28
 
 http:
   method: POST
@@ -17,9 +17,9 @@ http:
     type: json
     data: |-
       {
-        "type": "4",
-        "reference_id": "si8",
-        "amount": "150",
+        "type": "1",
+        "reference_id": "mf2",
+        "amount": "200",
         "payment_method": "UPI",
         "gateway_transaction_id": "dummy_txn_month2_si4"
       }

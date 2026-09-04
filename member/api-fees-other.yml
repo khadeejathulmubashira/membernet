@@ -1,7 +1,7 @@
 info:
   name: api/fees/other
   type: http
-  seq: 26
+  seq: 24
 
 http:
   method: GET
@@ -25,3 +25,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
