@@ -10,7 +10,7 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 447|0tIFFt9Bi0YmToIXtOMerwc1h3jK9EbHdztZ1qGo3b367b3e
+      value: Bearer 473|svIZEpo3YseyuJxMNZbHN5e3bNjJPzOuEbSoCCxncb73fbfa
   params:
     - name: page
       value: "1"
