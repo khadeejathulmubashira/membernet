@@ -10,16 +10,16 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 473|svIZEpo3YseyuJxMNZbHN5e3bNjJPzOuEbSoCCxncb73fbfa
+      value: Bearer 531|KSzWdSqNIfU3cy4ox5x2Pv5NuUgMEcAIox7f5CPbb10602ec
     - name: Content-Type
       value: application/json
   body:
     type: json
     data: |-
       {
-        "type": "3",
-        "reference_id": "c7",
-        "amount": "1000",
+        "type": "2",
+        "reference_id": "of15",
+        "amount": "9000",
         "payment_method": "UPI",
         "gateway_transaction_id": "dummy_txn_month2_si4"
       }

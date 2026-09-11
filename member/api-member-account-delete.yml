@@ -1,0 +1,21 @@
+info:
+  name: api/member/account/delete
+  type: http
+  seq: 36
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/member/account/delete
+  headers:
+    - name: Authorization
+      value: Bearer 183|qIpsNJjBXZe5whVrZUxYHKCBjNTZaEDoSSmJmuA9a9f906af
+    - name: Accept
+      value: application/json
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
