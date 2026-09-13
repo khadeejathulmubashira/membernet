@@ -4,7 +4,7 @@ info:
   seq: 36
 
 http:
-  method: POST
+  method: DELETE
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/member/account/delete
   headers:
     - name: Authorization
