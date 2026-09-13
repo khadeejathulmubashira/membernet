@@ -1,0 +1,28 @@
+info:
+  name: api/expenses/monthly-summary
+  type: http
+  seq: 39
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/expenses/monthly-summary
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 535|Plaa1DPzA43sgmEyiSoxKRMP3Pe4KoLF5tEMNWaA078209f6
+  body:
+    type: json
+    data: |-
+      {
+        "month": "7",
+        "year": "2026"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
