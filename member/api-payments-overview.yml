@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/payments/overview
   headers:
     - name: Authorization
-      value: Bearer 519|ixspvtRQRC09pd570f1KzKpgoNKPr2DY5WStoNSrcafd177e
+      value: Bearer 535|Plaa1DPzA43sgmEyiSoxKRMP3Pe4KoLF5tEMNWaA078209f6
     - name: Accept
       value: application/json
   auth: inherit
