@@ -1,0 +1,29 @@
+info:
+  name: api/expenses/yearly-summary
+  type: http
+  seq: 41
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/expenses/yearly-summary
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+    - name: Authorization
+      value: Bearer 545|jo785WyeovzcA9aX9SHeuyFfF2WxzpG4Y3B11tvC62038391
+  body:
+    type: json
+    data: |-
+      {
+        "year": "2026"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
