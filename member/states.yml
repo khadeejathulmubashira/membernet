@@ -1,7 +1,7 @@
 info:
   name: states
   type: http
-  seq: 4
+  seq: 3
 
 http:
   method: GET
@@ -12,10 +12,11 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 48|p8sFj0tz8u5gzrEQcdpmkHBcN0ky6kUItX36g4Mk90b6bb06
+      value: Bearer 555|AW8JObj1Z6FCpLu4hCJA33lF4bujU2KE9f7FH3YF891bfd12
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

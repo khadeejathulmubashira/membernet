@@ -1,7 +1,7 @@
 info:
   name: api/fees/other
   type: http
-  seq: 24
+  seq: 23
 
 http:
   method: GET

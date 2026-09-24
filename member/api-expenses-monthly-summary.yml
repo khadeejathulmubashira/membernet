@@ -1,7 +1,7 @@
 info:
   name: api/expenses/monthly-summary
   type: http
-  seq: 39
+  seq: 38
 
 http:
   method: POST
@@ -10,7 +10,7 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 535|Plaa1DPzA43sgmEyiSoxKRMP3Pe4KoLF5tEMNWaA078209f6
+      value: Bearer 545|jo785WyeovzcA9aX9SHeuyFfF2WxzpG4Y3B11tvC62038391
   body:
     type: json
     data: |-

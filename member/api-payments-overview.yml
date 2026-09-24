@@ -1,14 +1,14 @@
 info:
   name: api/payments/overview
   type: http
-  seq: 25
+  seq: 24
 
 http:
   method: GET
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/payments/overview
   headers:
     - name: Authorization
-      value: Bearer 535|Plaa1DPzA43sgmEyiSoxKRMP3Pe4KoLF5tEMNWaA078209f6
+      value: Bearer 568|w6bN5WsVgQ6unlJG9kwd7SCHRMRLKbZzIhrlyC4N22333e94
     - name: Accept
       value: application/json
   auth: inherit

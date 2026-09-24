@@ -1,7 +1,7 @@
 info:
   name: api/committees/my-committees
   type: http
-  seq: 33
+  seq: 32
 
 http:
   method: GET

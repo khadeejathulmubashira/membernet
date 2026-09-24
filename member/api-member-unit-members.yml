@@ -1,7 +1,7 @@
 info:
   name: api/member/unit-members
   type: http
-  seq: 6
+  seq: 5
 
 http:
   method: POST
@@ -12,7 +12,7 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 106|tLl9VGxAhM2f6lA15qRH56lKgqTHu4vqOcjU8Y2re1885496
+      value: Bearer 555|AW8JObj1Z6FCpLu4hCJA33lF4bujU2KE9f7FH3YF891bfd12
   body:
     type: json
     data: "{\r

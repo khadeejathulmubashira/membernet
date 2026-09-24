@@ -1,7 +1,7 @@
 info:
   name: api/renewals/status
   type: http
-  seq: 35
+  seq: 34
 
 http:
   method: GET

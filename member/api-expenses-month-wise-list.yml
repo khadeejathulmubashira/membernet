@@ -1,7 +1,7 @@
 info:
   name: api/expenses/month-wise-list
   type: http
-  seq: 42
+  seq: 41
 
 http:
   method: POST

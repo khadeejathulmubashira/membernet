@@ -1,7 +1,7 @@
 info:
   name: api/member/account/delete
   type: http
-  seq: 36
+  seq: 35
 
 http:
   method: DELETE

@@ -1,7 +1,7 @@
 info:
   name: news/detail
   type: http
-  seq: 18
+  seq: 17
 
 http:
   method: POST
