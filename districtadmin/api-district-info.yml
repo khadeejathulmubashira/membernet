@@ -1,0 +1,23 @@
+info:
+  name: api/district/info
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/info
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 592|bbf5GbGXApyFtHbsjBD4wZWnvVrG02aL3Rl98HtVd2be5128
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
+  omitHeaders:
+    - Connection

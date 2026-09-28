@@ -1,0 +1,31 @@
+info:
+  name: api/district/members
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/members?page=1&per_page=15
+  headers:
+    - name: Authorization
+      value: Bearer 592|bbf5GbGXApyFtHbsjBD4wZWnvVrG02aL3Rl98HtVd2be5128
+    - name: Accept
+      value: application/json
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: per_page
+      value: "15"
+      type: query
+  body:
+    type: json
+    data: '{"unit_id":16}'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
