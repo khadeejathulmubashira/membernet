@@ -1,0 +1,24 @@
+info:
+  name: api/district/members/approve
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/members/approve
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 592|bbf5GbGXApyFtHbsjBD4wZWnvVrG02aL3Rl98HtVd2be5128
+  body:
+    type: json
+    data: '{ "id": 243 }'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
