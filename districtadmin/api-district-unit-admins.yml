@@ -1,0 +1,33 @@
+info:
+  name: api/district/unit-admins
+  type: http
+  seq: 13
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/unit-admins?page=1&per_page=10
+  headers:
+    - name: Authorization
+      value: Bearer 600|tEblj4hX9TE0V5kJ2pHUPWV7CFFKvzgSaPn1SzCM8312da15
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: per_page
+      value: "10"
+      type: query
+  body:
+    type: json
+    data: '{ "unit_id": "16" }'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
