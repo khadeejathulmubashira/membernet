@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/members/pending?page=1&per_page=15
   headers:
     - name: Authorization
-      value: Bearer 592|bbf5GbGXApyFtHbsjBD4wZWnvVrG02aL3Rl98HtVd2be5128
+      value: Bearer 600|tEblj4hX9TE0V5kJ2pHUPWV7CFFKvzgSaPn1SzCM8312da15
     - name: Accept
       value: application/json
   params:
