@@ -1,0 +1,30 @@
+info:
+  name: api/district/unit-admins/register
+  type: http
+  seq: 15
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/unit-admins/register
+  headers:
+    - name: Authorization
+      value: Bearer 608|U2JM5hkb6Y0rL3Lvj45yJFZyUObx1rlQXuqEo0on77466e4e
+    - name: Accept
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Rahul Menon",
+        "email": "rahul.unitadmin@gmail.com",
+        "phone": "9876663210",
+        "unit_id": 31
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

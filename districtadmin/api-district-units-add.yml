@@ -1,16 +1,22 @@
 info:
-  name: api/district/units
+  name: api/district/units/add
   type: http
-  seq: 2
+  seq: 14
 
 http:
-  method: GET
-  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/units
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/units/add
   headers:
     - name: Accept
       value: application/json
     - name: Authorization
       value: Bearer 608|U2JM5hkb6Y0rL3Lvj45yJFZyUObx1rlQXuqEo0on77466e4e
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Kanhangad Central"
+      }
   auth: inherit
 
 settings:
