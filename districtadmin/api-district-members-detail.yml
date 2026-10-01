@@ -10,7 +10,7 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 592|bbf5GbGXApyFtHbsjBD4wZWnvVrG02aL3Rl98HtVd2be5128
+      value: Bearer 600|tEblj4hX9TE0V5kJ2pHUPWV7CFFKvzgSaPn1SzCM8312da15
   body:
     type: json
     data: '{"id":222}'
