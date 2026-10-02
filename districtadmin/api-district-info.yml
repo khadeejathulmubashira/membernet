@@ -10,7 +10,7 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 600|tEblj4hX9TE0V5kJ2pHUPWV7CFFKvzgSaPn1SzCM8312da15
+      value: Bearer 608|U2JM5hkb6Y0rL3Lvj45yJFZyUObx1rlQXuqEo0on77466e4e
   auth: inherit
 
 settings:

@@ -12,7 +12,7 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 185|kOYFoAB4g3fGlBm0IZsgHm1uQx15T9GzpAb8nSBSf8ba3334
+      value: Bearer 618|SxrvH3tzPTLGigWmJIpmsA7FYziCE0RnsuFCqzIzf1e65038
   body:
     type: json
     data: ""
@@ -22,3 +22,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
