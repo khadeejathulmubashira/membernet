@@ -1,0 +1,16 @@
+info:
+  name: api/signup-status
+  type: http
+  seq: 43
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/signup-status
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
