@@ -1,0 +1,33 @@
+info:
+  name: api/admin/district-admins/register
+  type: http
+  seq: 26
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/district-admins/register
+  headers:
+    - name: Authorization
+      value: Bearer 622|a79qIjIt5sDoxhb4QtqO1iMA9J07N04OrYA3nuKL0e48fd22
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+          "name": "shama",
+          "email": "shama@gmail.com",
+          "phone": "9898001234",
+          "state_id": 1,
+          "district_id": 1
+        }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
