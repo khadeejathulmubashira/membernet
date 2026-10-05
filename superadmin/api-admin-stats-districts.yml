@@ -12,7 +12,7 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 618|SxrvH3tzPTLGigWmJIpmsA7FYziCE0RnsuFCqzIzf1e65038
+      value: Bearer 626|mDqkcvcU0G9ZQQzw63R32Jzovi4KdTFC3OaYle3Ke3fbe62c
   body:
     type: json
     data: '{"state_id": 1}'
