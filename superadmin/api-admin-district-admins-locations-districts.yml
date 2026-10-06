@@ -13,7 +13,7 @@ http:
       value: application/json
   body:
     type: json
-    data: '{ "state_id": 2 }'
+    data: '{ "state_id": 25 }'
   auth: inherit
 
 settings:
