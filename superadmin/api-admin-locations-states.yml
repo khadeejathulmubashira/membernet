@@ -9,9 +9,8 @@ http:
   headers:
     - name: Accept
       value: application/json
-      disabled: true
     - name: Authorization
-      value: Bearer 398|xYS9cwNOIqN5l1AUQ5FiWVdqQEdhGwHHAhGer11m26acd3a6
+      value: Bearer 638|w15r1Y3EB9ETqiIU5fQ6zZnvYrXS9kcdETW7rgsS72ea90f0
     - name: Content-Type
       value: application/json
   auth: inherit
@@ -21,3 +20,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

@@ -12,10 +12,13 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 398|xYS9cwNOIqN5l1AUQ5FiWVdqQEdhGwHHAhGer11m26acd3a6
+      value: Bearer 638|w15r1Y3EB9ETqiIU5fQ6zZnvYrXS9kcdETW7rgsS72ea90f0
   body:
     type: json
-    data: "{\r\n    \"state_id\": 1\r\n}"
+    data: |-
+      {
+          "state_id": 1
+      }
   auth: inherit
 
 settings:
@@ -23,3 +26,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

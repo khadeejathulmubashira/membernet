@@ -13,7 +13,10 @@ http:
       value: application/json
   body:
     type: json
-    data: "{\r\n    \"district_id\": 4\r\n}"
+    data: |-
+      {
+          "district_id": 5
+      }
 
 settings:
   encodeUrl: true

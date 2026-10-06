@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/district-admins/register
   headers:
     - name: Authorization
-      value: Bearer 622|a79qIjIt5sDoxhb4QtqO1iMA9J07N04OrYA3nuKL0e48fd22
+      value: Bearer 626|mDqkcvcU0G9ZQQzw63R32Jzovi4KdTFC3OaYle3Ke3fbe62c
     - name: Accept
       value: application/json
     - name: Content-Type
@@ -18,10 +18,10 @@ http:
     data: |-
       {
           "name": "shama",
-          "email": "shama@gmail.com",
-          "phone": "9898001234",
+          "email": "shamma@gmail.com",
+          "phone": "9898991234",
           "state_id": 1,
-          "district_id": 1
+          "district_id": 3
         }
   auth: inherit
 
