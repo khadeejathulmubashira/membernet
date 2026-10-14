@@ -12,7 +12,7 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 666|mka90P4cghVbdRHRQlCoeIrAt9yqk6Sc3bsGg0bh20deb3f2
+      value: Bearer 688|AWTDoyJqS5FwgKx1yPshJ36uavZOCLVUahCEUwh0a5873c93
 
 settings:
   encodeUrl: true

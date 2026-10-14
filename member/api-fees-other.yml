@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/fees/other?page=1&limit=20
   headers:
     - name: Authorization
-      value: Bearer 659|8D43YZZnHxKccKiP4cJitdnhYTKZ3ElYD1Cnns5s3856457c
+      value: Bearer 695|OS5cvERXgHlUPbkM1kAdPH6pmC3e9q1KrMrCEXOW21655bd3
     - name: Accept
       value: application/json
   params:
