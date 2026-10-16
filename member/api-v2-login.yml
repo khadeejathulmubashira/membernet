@@ -1,0 +1,19 @@
+info:
+  name: api/v2/login
+  type: http
+  seq: 44
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/v2/login
+  body:
+    type: json
+    data: '{ "username": "mubigct@gmail.com", "password": "admin@1234" }'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
