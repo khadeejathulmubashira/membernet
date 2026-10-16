@@ -10,14 +10,14 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 659|8D43YZZnHxKccKiP4cJitdnhYTKZ3ElYD1Cnns5s3856457c
+      value: Bearer 698|ZZTnJxRz9fMaQsT0oQB0BKqzuq7flhpTiWyS3Tus666f761d
     - name: Content-Type
       value: application/json
   body:
     type: json
     data: |-
       {
-          "event_id": 43
+          "event_id": 17
       }
 
 settings:
