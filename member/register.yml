@@ -15,11 +15,9 @@ http:
     type: json
     data: |2-
         {
-          "name": "Test Member",
-          "email": "testmeberr1@gmail.com",
-          "phone": "9876551134",
-          "password": "Test@12345",
-          "password_confirmation": "Test@12345",
+          "name": "kadeesu",
+          "email": "wwwmubashira45@gmail.com",
+          "phone": "7994012077",
           "dob": "1995-05-20",
           "organization": "Test Organization",
           "address": "Main Road, Vadakara, 673101",
