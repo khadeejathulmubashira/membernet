@@ -12,12 +12,12 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 640|001J9Bhb55CZvHVc4uWxUtm2QeJmdRqMkjjr8bAx4172abd2
+      value: Bearer 750|n4Mt1Nuy1KT8KOkkTDDEo2RgGGOikcagsYw5ZCQ2bc67662b
   body:
     type: json
     data: |-
       {
-          "is_fumma_member": 1
+        "address": "Beevi Manzil, Main Road, Kanhangad, Kasaragod, 671315"
       }
 
 settings:
