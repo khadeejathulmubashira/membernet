@@ -1,0 +1,27 @@
+info:
+  name: /api/gallery/seen
+  type: http
+  seq: 46
+
+http:
+  method: POST
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/gallery/seen
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Authorization
+      value: Bearer 749|kgrciSv9bWiDA4NUsOqc2ogwh6urEF54IyRYgRVE2ef95d02
+  body:
+    type: json
+    data: |-
+      {
+        "last_seen_at": "2026-10-22T04:36:00Z"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

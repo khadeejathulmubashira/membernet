@@ -10,10 +10,10 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 182|EUBJunieYEPmq2TD2fUy4LXLq35VxZkOf3hhiweib775b19d
+      value: Bearer 749|kgrciSv9bWiDA4NUsOqc2ogwh6urEF54IyRYgRVE2ef95d02
   body:
     type: json
-    data: '{ "date": "2026-09-21" }'
+    data: '{ "date": "2026-06-21" }'
   auth: inherit
 
 settings:
