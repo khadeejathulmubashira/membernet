@@ -10,15 +10,20 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 227|KZ3zWbNYVYrzJgdpEbfEX6PAZbgXYq3iQeIcNCJM2bc1056a
+      value: Bearer 753|Bm0MrlMNwq3BtnWK9rimXk9P4idMy63ZhiABTvXu78948e29
     - name: Content-Type
       value: application/json
   body:
     type: json
-    data: "{\r\n    \"id\":109\r\n}"
+    data: |-
+      {
+        "id": 293,
+        "password": "admin@1234"
+      }
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

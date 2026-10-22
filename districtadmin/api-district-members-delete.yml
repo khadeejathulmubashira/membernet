@@ -10,10 +10,15 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 592|bbf5GbGXApyFtHbsjBD4wZWnvVrG02aL3Rl98HtVd2be5128
+      value: Bearer 754|dVfXUJGQX50Bbd9DqKQqjZ9H7yLYQgDU7KbqkC8Lfd0bbcb0
   body:
     type: json
-    data: '{ "id": 243 }'
+    data: |-
+      { 
+        "id": "296",
+        "password": "Fathima@5922"
+
+      }
   auth: inherit
 
 settings:
