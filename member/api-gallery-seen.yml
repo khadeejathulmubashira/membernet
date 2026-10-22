@@ -15,7 +15,7 @@ http:
     type: json
     data: |-
       {
-        "last_seen_at": "{{$isoTimestamp}}"
+        "last_seen_at": "2026-10-22T04:36:00Z"
       }
   auth: inherit
 
