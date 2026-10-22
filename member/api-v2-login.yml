@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/v2/login
   body:
     type: json
-    data: '{ "username": "FUMMA/KAS/002", "password": "7994403887" }'
+    data: '{ "username": "rasma@gmail.com", "password": "Rasma@5867" }'
   auth: inherit
 
 settings:
