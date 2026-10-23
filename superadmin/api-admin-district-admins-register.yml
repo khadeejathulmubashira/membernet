@@ -1,7 +1,7 @@
 info:
   name: api/admin/district-admins/register
   type: http
-  seq: 26
+  seq: 27
 
 http:
   method: POST

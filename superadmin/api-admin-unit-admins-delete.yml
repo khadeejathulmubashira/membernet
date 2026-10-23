@@ -8,17 +8,22 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/unit-admins/delete
   headers:
     - name: Authorization
-      value: Bearer 185|kOYFoAB4g3fGlBm0IZsgHm1uQx15T9GzpAb8nSBSf8ba3334
+      value: Bearer 772|VHk4alDRHo8blAleHNfdRkmi7bGNksRZmFLNOfGO96b93911
     - name: Accept
       value: application/json
     - name: Content-Type
       value: application/json
   body:
     type: json
-    data: "{\r\n    \"id\": 9\r\n}"
+    data: |-
+      {
+        "id": 49,
+        "password": "admin@1234"
+      }
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

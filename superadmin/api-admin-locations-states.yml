@@ -1,7 +1,7 @@
 info:
   name: api/admin/locations/states
   type: http
-  seq: 23
+  seq: 24
 
 http:
   method: GET

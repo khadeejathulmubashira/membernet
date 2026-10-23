@@ -1,7 +1,7 @@
 info:
   name: api/admin/district-admins/all
   type: http
-  seq: 27
+  seq: 28
 
 http:
   method: GET

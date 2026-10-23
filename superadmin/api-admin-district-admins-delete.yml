@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/district-admins/delete
   headers:
     - name: Authorization
-      value: Bearer 685|s43JTn8iQMAOfRj4IPtoZruYOuGcOYRajnVIsAu3b470cd24
+      value: Bearer 772|VHk4alDRHo8blAleHNfdRkmi7bGNksRZmFLNOfGO96b93911
     - name: Accept
       value: application/json
     - name: Content-Type
@@ -17,7 +17,8 @@ http:
     type: json
     data: |-
       {
-          "id": 4
+        "id": 14,
+        "password": "admin@1234"
       }
   auth: inherit
 
