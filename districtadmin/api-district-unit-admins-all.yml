@@ -1,0 +1,30 @@
+info:
+  name: api/district/unit-admins/all
+  type: http
+  seq: 17
+
+http:
+  method: GET
+  url: https://kmubhashira.astradevelops.in/eca-api/public/api/district/unit-admins/all?page=1&per_page=15
+  headers:
+    - name: Authorization
+      value: Bearer 773|02TI2hGaoPJiN95sxKVCkhw7zdf8P3tzCEnAYeSl476b194b
+    - name: Accept
+      value: application/json
+    - name: Content-Type
+      value: application/json
+  params:
+    - name: page
+      value: "1"
+      type: query
+    - name: per_page
+      value: "15"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
