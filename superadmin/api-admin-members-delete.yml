@@ -10,14 +10,14 @@ http:
     - name: Accept
       value: application/json
     - name: Authorization
-      value: Bearer 753|Bm0MrlMNwq3BtnWK9rimXk9P4idMy63ZhiABTvXu78948e29
+      value: Bearer 777|mfSfV85y5uCoOyWrs0aVbdv8Xr9VrBcBa6wCNquW39fe447b
     - name: Content-Type
       value: application/json
   body:
     type: json
     data: |-
       {
-        "id": 293,
+        "id": 314,
         "password": "admin@1234"
       }
 
