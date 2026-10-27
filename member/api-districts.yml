@@ -4,7 +4,7 @@ info:
   seq: 12
 
 http:
-  method: POST
+  method: GET
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/districts
   headers:
     - name: Accept
@@ -13,7 +13,7 @@ http:
       value: application/json
   body:
     type: json
-    data: "{\r\n    \"state_id\": 1\r\n}"
+    data: ""
 
 settings:
   encodeUrl: true
