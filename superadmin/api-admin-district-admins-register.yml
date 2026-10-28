@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/district-admins/register
   headers:
     - name: Authorization
-      value: Bearer 638|w15r1Y3EB9ETqiIU5fQ6zZnvYrXS9kcdETW7rgsS72ea90f0
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
     - name: Accept
       value: application/json
     - name: Content-Type
@@ -17,11 +17,10 @@ http:
     type: json
     data: |-
       {
-        "name": "Test Admin",
-        "email": "testdistrictadmin@gmail.com",
-        "phone": "9800045433",
-        "state_id": 1,
-        "district_id": 5
+        "name": "Anil Kumar",
+        "email": "anil.kumar@gmail.com",
+        "phone": "9876500022",
+        "district_id": 47
       }
   auth: inherit
 

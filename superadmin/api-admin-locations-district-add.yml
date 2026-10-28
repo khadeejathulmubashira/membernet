@@ -8,20 +8,17 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/locations/district/add
   headers:
     - name: Authorization
-      value: Bearer 208|gp64JdFp1VESxQERhOFJ4WNJmqsZFFpDVyHRKQ479fe43609
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
     - name: Accept
       value: application/json
     - name: Content-Type
       value: application/json
   body:
     type: json
-    data: "{\r
-
-      \  \"name\": \"Coimbatore\",\r
-
-      \  \"state_id\": \"9\"\r
-
-      }"
+    data: |-
+      {
+        "name": "Test District"
+      }
   auth: inherit
 
 settings:

@@ -12,12 +12,12 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 643|4zKZYHMHittsjonjtQZdtj1jGnriswuGo8wyKyl272f69f7a
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
   body:
     type: json
     data: |-
       {
-          "district_id": 3
+          "district_id": 46
       }
   auth: inherit
 

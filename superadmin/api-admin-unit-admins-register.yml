@@ -10,29 +10,23 @@ http:
     - name: Accept
       value: application/ecmascript
     - name: Authorization
-      value: Bearer 208|gp64JdFp1VESxQERhOFJ4WNJmqsZFFpDVyHRKQ479fe43609
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
     - name: Content-Type
       value: application/json
   body:
     type: json
-    data: "{\r
-
-      \    \"name\"        : \"John Doe\",\r
-
-      \    \"email\"       : \"johndoe@example.com\",\r
-
-      \    \"phone\"       : \"9988776776\",\r
-
-      \    \"state_id\"    : 1,\r
-
-      \    \"district_id\" : 1,\r
-
-      \    \"unit_id\"     : 1\r
-
-      }"
+    data: |-
+      {
+          "name"        : "Rahul Menon",
+          "email"       : "johndoe@example.com",
+          "phone"       : "9988776776",
+          "district_id" : 47,
+          "unit_id"     : 62
+      }
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

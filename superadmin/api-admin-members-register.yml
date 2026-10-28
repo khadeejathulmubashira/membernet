@@ -12,17 +12,16 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 777|mfSfV85y5uCoOyWrs0aVbdv8Xr9VrBcBa6wCNquW39fe447b
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
   body:
     type: json
     data: |2-
         {
-          "name": "soood",
-          "phone": "7890012077",
+          "name": "soood test",
+          "phone": "7890012078",
           "dob": "1995-05-20",
           "organization": "Test Organization",
           "address": "Main Road, Vadakara, 673101",
-          "state_id": 1,
           "district_id": 46,
           "unit_id": 51,
           "is_fumma_member": 0,

@@ -8,7 +8,7 @@ http:
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/district-admins/locations/states
   headers:
     - name: Authorization
-      value: Bearer 643|4zKZYHMHittsjonjtQZdtj1jGnriswuGo8wyKyl272f69f7a
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
     - name: Accept
       value: application/json
   auth: inherit

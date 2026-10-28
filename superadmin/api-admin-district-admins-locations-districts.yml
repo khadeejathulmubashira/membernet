@@ -4,19 +4,16 @@ info:
   seq: 30
 
 http:
-  method: POST
+  method: GET
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/district-admins/locations/districts
   headers:
     - name: Authorization
-      value: Bearer 643|4zKZYHMHittsjonjtQZdtj1jGnriswuGo8wyKyl272f69f7a
+      value: Bearer 788|4pNCEtSKrWhE9F6uCwocFZDZ2tbcULwOumptM3HKeccf0f35
     - name: Accept
       value: application/json
   body:
     type: json
-    data: |-
-      {
-          "state_id": 25
-      }
+    data: ""
   auth: inherit
 
 settings:
