@@ -1,7 +1,7 @@
 info:
   name: api/admin/district-admins/delete
   type: http
-  seq: 31
+  seq: 30
 
 http:
   method: POST

@@ -4,7 +4,7 @@ info:
   seq: 13
 
 http:
-  method: POST
+  method: GET
   url: https://kmubhashira.astradevelops.in/eca-api/public/api/admin/stats/districts
   headers:
     - name: Accept
@@ -12,10 +12,10 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 626|mDqkcvcU0G9ZQQzw63R32Jzovi4KdTFC3OaYle3Ke3fbe62c
+      value: Bearer 798|Byc7AzsTYyTzRBYuMwjgM6MrIZlWR6gvnmrw0FZ3f31bb131
   body:
     type: json
-    data: '{"state_id": 1}'
+    data: ""
   auth: inherit
 
 settings:

@@ -1,7 +1,7 @@
 info:
   name: api/admin/unit-admins/register
   type: http
-  seq: 15
+  seq: 14
 
 http:
   method: POST
@@ -18,10 +18,10 @@ http:
     data: |-
       {
           "name"        : "Rahul Menon",
-          "email"       : "johndoe@example.com",
-          "phone"       : "9988776776",
-          "district_id" : 47,
-          "unit_id"     : 62
+          "email"       : "jooe@example.com",
+          "phone"       : "7788776776",
+          "district_id" : 48,
+          "unit_id"     : 53
       }
 
 settings:

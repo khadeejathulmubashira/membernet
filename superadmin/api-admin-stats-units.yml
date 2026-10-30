@@ -1,7 +1,7 @@
 info:
   name: api/admin/stats/units
   type: http
-  seq: 14
+  seq: 13
 
 http:
   method: POST
@@ -12,10 +12,10 @@ http:
     - name: Content-Type
       value: application/json
     - name: Authorization
-      value: Bearer 618|SxrvH3tzPTLGigWmJIpmsA7FYziCE0RnsuFCqzIzf1e65038
+      value: Bearer 798|Byc7AzsTYyTzRBYuMwjgM6MrIZlWR6gvnmrw0FZ3f31bb131
   body:
     type: json
-    data: '{"district_id": 15}'
+    data: '{"district_id": 46}'
 
 settings:
   encodeUrl: true

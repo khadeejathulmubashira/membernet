@@ -1,7 +1,7 @@
 info:
   name: api/admin/members/delete
   type: http
-  seq: 19
+  seq: 18
 
 http:
   method: POST
